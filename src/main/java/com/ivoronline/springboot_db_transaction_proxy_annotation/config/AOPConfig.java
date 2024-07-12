@@ -9,7 +9,7 @@ import java.sql.Connection;
 
 @Aspect
 @Component
-public class MyTransactionAspect {
+public class AOPConfig {
 
   //PROPERTIES
   @Autowired private Connection connection;
